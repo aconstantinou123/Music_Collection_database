@@ -47,6 +47,7 @@ album2.save
 album3.save
 
 pp artist1.list_albums
+pp album2.list_artist
 # pp Album.list_all
 
 
