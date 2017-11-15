@@ -24,7 +24,8 @@ album1 = Album.new(
 
 album1.save
 
-
+pp Artist.list_all
+pp Album.list_all
 
 
 binding.pry
