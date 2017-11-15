@@ -10,5 +10,7 @@ class SqlRunner
     ensure
       db.close if db != nil
   end
-  return result
+    return result
+  end
+
 end
