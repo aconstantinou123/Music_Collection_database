@@ -13,15 +13,18 @@ artist1 = Artist.new(
   'name' => 'Daughter'
 })
 
-# album1 = Album.new(
-#   {
-#     'title' => 'Leave',
-#     'artist_id' => artist1.id
-#   }
-# )
-
 artist1.save
-# album1.save
+
+album1 = Album.new(
+  {
+    'title' => 'Leave',
+    'artist_id' => artist1.id
+  }
+)
+
+album1.save
+
+
 
 
 binding.pry
